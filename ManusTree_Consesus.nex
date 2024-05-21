@@ -1,0 +1,73 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=63;
+	taxlabels
+	Zenaida_macroura
+	Columba_livia
+	Ardea_herodias
+	Phalacrocorax_auritus
+	Puffinus_griseus
+	Oceanodroma_leucorhoa
+	Calidris_mauri
+	Larus_delawarensis
+	Larus_glaucescens
+	Cerorhinca_monocerata
+	Synthliboramphus_antiquus
+	Uria_aalge
+	Aechmophorus_occidentalis
+	Porzana_carolina
+	Rallus_limicola
+	Cathartes_aura
+	Pandion_haliaetus
+	Aquila_chrysaetos
+	Accipiter_gentilis
+	Accipiter_striatus
+	Haliaeetus_leucocephalus
+	Buteo_jamaicensis
+	Chordeiles_minor
+	Tyto_alba
+	Megaceryle_alcyon
+	Colaptes_auratus
+	Sphyrapicus_ruber
+	Glaucidium_gnoma
+	Aegolius_acadicus
+	Asio_flammeus
+	Strix_nebulosa
+	Cypseloides_niger
+	Selasphorus_rufus
+	Calypte_anna
+	Falco_sparverius
+	Falco_columbarius
+	Falco_peregrinus
+	Falco_rusticolus
+	Nymphicus_hollandicus
+	Melopsittacus_undulatus
+	Agapornis_roseicollis
+	Contopus_sordidulus
+	Tachycineta_thalassina
+	Hirundo_rustica
+	Taeniopygia_guttata
+	Anthus_rubescens
+	Loxia_curvirostra
+	Seiurus_aurocapilla
+	Regulus_satrapa
+	Sturnus_vulgaris
+	Zoothera_naevia
+	Catharus_guttatus
+	Cyanocitta_stelleri
+	Corvus_caurinus
+	Corvus_corax
+	Ptiloris_victoriae
+	Ptiloris_magnificus
+	Aythya_marila
+	Anas_americana
+	Anas_platyrhynchos
+	Coturnix_coturnix
+	Dendragapus_canadensis
+	Lophura_swinhoii
+;
+end;
+
+begin trees;
+	tree consensus = [&R] [&"consensus method"="Majority greedy clustering"](((Zenaida_macroura:29.46972526298625,Columba_livia:29.46972526298897)[&"Consensus support(%)"=100.0]:58.27567693999659,(((Ardea_herodias:71.66831745672566,Phalacrocorax_auritus:71.66831745688094,(Puffinus_griseus:64.56602589904116,Oceanodroma_leucorhoa:64.56602589885551)[&"Consensus support(%)"=100.0]:7.1022915592373295)[&"Consensus support(%)"=100.0]:6.620764823147653,((Calidris_mauri:55.43570224976067,((Larus_delawarensis:1.262839435945267,Larus_glaucescens:1.2628394359405073)[&"Consensus support(%)"=100.0]:18.68216626170419,(Cerorhinca_monocerata:15.084642255979446,(Synthliboramphus_antiquus:12.790068189126547,Uria_aalge:12.790068189134104)[&"Consensus support(%)"=100.0]:2.294574066829414)[&"Consensus support(%)"=100.0]:4.860363441656592)[&"Consensus support(%)"=100.0]:35.4906965520419)[&"Consensus support(%)"=100.0]:19.62235434703618,(Aechmophorus_occidentalis:72.52111882213951,(Porzana_carolina:33.496180074877344,Rallus_limicola:33.49618007490235)[&"Consensus support(%)"=100.0]:39.02493874734102)[&"Consensus support(%)"=91.64999999999999]:2.5369377744658976)[&"Consensus support(%)"=100.0]:3.2310256832173394)[&"Consensus support(%)"=100.0]:6.913698287710119,(((Cathartes_aura:81.31463689531259,(Pandion_haliaetus:61.75287764373998,(Aquila_chrysaetos:33.43705696776253,((Accipiter_gentilis:23.837402467873623,Accipiter_striatus:23.837402467906337)[&"Consensus support(%)"=100.0]:6.094151334518948,(Haliaeetus_leucocephalus:23.941780006291022,Buteo_jamaicensis:23.941780006265954)[&"Consensus support(%)"=100.0]:5.989773796112928)[&"Consensus support(%)"=100.0]:3.5055031653717066)[&"Consensus support(%)"=100.0]:28.315820675998538)[&"Consensus support(%)"=100.0]:19.561759251522297,(Chordeiles_minor:80.44783580295842,((Tyto_alba:76.53864730304628,(Megaceryle_alcyon:69.64617083503556,(Colaptes_auratus:16.448154884696148,Sphyrapicus_ruber:16.44815488473641)[&"Consensus support(%)"=100.0]:53.19801595043411)[&"Consensus support(%)"=100.0]:6.892476467852944)[&"Consensus support(%)"=100.0]:1.734420734158931,((Glaucidium_gnoma:32.609471983463884,Aegolius_acadicus:32.60947198334164)[&"Consensus support(%)"=100.0]:9.060779309104149,(Asio_flammeus:30.524649330827675,Strix_nebulosa:30.524649330849467)[&"Consensus support(%)"=100.0]:11.145601961618958)[&"Consensus support(%)"=100.0]:36.60281674460629)[&"Consensus support(%)"=100.0]:2.174767765775357)[&"Consensus support(%)"=100.0]:0.8668010922194469)[&"Consensus support(%)"=100.0]:1.6690786803495712,(Cypseloides_niger:62.71251721653358,(Selasphorus_rufus:3.279426252868938,Calypte_anna:3.2794262528869838)[&"Consensus support(%)"=100.0]:59.43309096365311)[&"Consensus support(%)"=100.0]:20.271198358967936)[&"Consensus support(%)"=100.0]:0.4312154093436078,((Falco_sparverius:13.351233597092602,Falco_columbarius:13.351233597013339,(Falco_peregrinus:4.185367575490884,Falco_rusticolus:4.185367575483192)[&"Consensus support(%)"=100.0]:9.16586602150019)[&"Consensus support(%)"=100.0]:67.67293111199814,((Nymphicus_hollandicus:45.266986014438565,(Melopsittacus_undulatus:30.4760120205459,Agapornis_roseicollis:30.476012020644887)[&"Consensus support(%)"=100.0]:14.79097399394508)[&"Consensus support(%)"=100.0]:34.406015968916144,(Contopus_sordidulus:69.10540068492192,(((Tachycineta_thalassina:19.646821749111325,Hirundo_rustica:19.646821749103)[&"Consensus support(%)"=100.0]:26.099658214421257,((Taeniopygia_guttata:36.3596625467578,(Anthus_rubescens:31.167378914895938,(Loxia_curvirostra:27.84361382962119,Seiurus_aurocapilla:27.843613829651602)[&"Consensus support(%)"=100.0]:3.323765085315621)[&"Consensus support(%)"=100.0]:5.192283632101276)[&"Consensus support(%)"=100.0]:8.438369209721778,(Regulus_satrapa:44.280958646717856,(Sturnus_vulgaris:30.1960548859551,(Zoothera_naevia:16.199268461160443,Catharus_guttatus:16.199268461234894)[&"Consensus support(%)"=100.0]:13.996786424688938)[&"Consensus support(%)"=100.0]:14.084903760723112)[&"Consensus support(%)"=100.0]:0.5170731098607959)[&"Consensus support(%)"=100.0]:0.948448206799128)[&"Consensus support(%)"=100.0]:6.044393988203332,((Cyanocitta_stelleri:18.621467409598036,(Corvus_caurinus:7.1550652523384874,Corvus_corax:7.155065252336938)[&"Consensus support(%)"=100.0]:11.466402157201353)[&"Consensus support(%)"=100.0]:9.88566120985909,(Ptiloris_victoriae:6.549904225036493,Ptiloris_magnificus:6.549904225031913)[&"Consensus support(%)"=100.0]:21.957224394375565)[&"Consensus support(%)"=100.0]:23.28374533216339)[&"Consensus support(%)"=100.0]:17.314526733392753)[&"Consensus support(%)"=100.0]:10.567601298341344)[&"Consensus support(%)"=90.10000000000001]:1.3511627254711556)[&"Consensus support(%)"=100.0]:2.3907662760724975)[&"Consensus support(%)"=100.0]:1.7878495825816145)[&"Consensus support(%)"=100.0]:2.542621635521556)[&"Consensus support(%)"=100.0]:15.753122042359507,((Aythya_marila:10.407542112271658,(Anas_americana:4.882682772692643,Anas_platyrhynchos:4.882682772696182)[&"Consensus support(%)"=100.0]:5.524859339592949)[&"Consensus support(%)"=100.0]:69.31927728832028,(Coturnix_coturnix:21.31676571248413,(Dendragapus_canadensis:16.58182982554117,Lophura_swinhoii:16.58182982552936)[&"Consensus support(%)"=100.0]:4.734935886933517)[&"Consensus support(%)"=100.0]:58.41005368820926)[&"Consensus support(%)"=100.0]:23.771704844686695);
+end;
